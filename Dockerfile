@@ -1,4 +1,4 @@
-FROM tozd/runit
+FROM tozd/runit:ubuntu-bionic
 
 EXPOSE 8083/tcp
 EXPOSE 8086/tcp
