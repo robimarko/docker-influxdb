@@ -5,7 +5,7 @@ EXPOSE 8086/tcp
 
 VOLUME /data
 
-ENV INFLUXDB_VERSION 1.6.4
+ENV INFLUXDB_VERSION 1.7.2
 
 RUN apt-get update -q -q && \
  apt-get --yes --force-yes install wget ca-certificates && \
